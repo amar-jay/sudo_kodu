@@ -25,6 +25,7 @@ void tokenizer(char *ptr) {
   // if set in current line
     if (start_set == true) {
       char *key = strtok(ptr, "=");
+    //TODO: perform arithmetric operations
       char *val = strtok(NULL, "");
 
       for (size_t i = 0; i<=store_n; i++) {
